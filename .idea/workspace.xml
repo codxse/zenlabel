@@ -6,6 +6,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="92b7605b-3db8-4026-9634-4562d4783b34" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/zenlabel/core.clj" beforeDir="false" afterPath="$PROJECT_DIR$/src/zenlabel/core.clj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/subjects.edn" beforeDir="false" afterPath="$PROJECT_DIR$/subjects.edn" afterDir="false" />
     </list>
@@ -30,8 +32,8 @@
       <file leaf-file-name="core.clj" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/zenlabel/core.clj">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="491">
-              <caret line="70" column="44" selection-start-line="70" selection-start-column="44" selection-end-line="70" selection-end-column="44" />
+            <state relative-caret-position="369">
+              <caret line="74" selection-start-line="74" selection-start-column="1" selection-end-line="78" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -39,8 +41,8 @@
       <file leaf-file-name="subjects.edn" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/subjects.edn">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-226">
-              <caret line="82" column="32" selection-start-line="82" selection-start-column="32" selection-end-line="82" selection-end-column="32" />
+            <state relative-caret-position="4905">
+              <caret line="327" column="18" selection-start-line="327" selection-start-column="18" selection-end-line="327" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -121,7 +123,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.appearance" />
   </component>
-  <component name="ReplState" timestamp="1532505694625">{:repl-history {:ide [], :local [], :remote []}}</component>
+  <component name="ReplState" timestamp="1532506348602">{:repl-history {:ide [], :local [], :remote []}}</component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -195,12 +197,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1532486632228</updated>
-      <workItem from="1532486639278" duration="17098000" />
+      <workItem from="1532486639278" duration="17751000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17098000" />
+    <option name="totallyTimeSpent" value="17751000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -214,11 +216,11 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="right" id="REPL" side_tool="true" visible="true" weight="0.30769232" />
+      <window_info active="true" anchor="right" id="REPL" side_tool="true" visible="true" weight="0.30769232" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="right" id="Leiningen" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.31384614" />
+      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.31384614" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24969475" />
@@ -254,15 +256,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/subjects.edn">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-226">
-          <caret line="82" column="32" selection-start-line="82" selection-start-column="32" selection-end-line="82" selection-end-column="32" />
+        <state relative-caret-position="4905">
+          <caret line="327" column="18" selection-start-line="327" selection-start-column="18" selection-end-line="327" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/zenlabel/core.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="491">
-          <caret line="70" column="44" selection-start-line="70" selection-start-column="44" selection-end-line="70" selection-end-column="44" />
+        <state relative-caret-position="369">
+          <caret line="74" selection-start-line="74" selection-start-column="1" selection-end-line="78" selection-end-column="30" />
         </state>
       </provider>
     </entry>

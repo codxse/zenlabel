@@ -72,6 +72,12 @@
                         :enum-name (create-enum "teacher-cbt-problem.chapter" chapter)
                         :contents meta-data}))}))))
 
+;(for [{:keys [subject original-name chapters]}
+;      (->> (group-by-subject DATA) distinct-chapters into-better-data-structure)]
+;  {:upper [subject original-name]
+;   :chapters (map #(select-keys % [:kode-contents :chapter-name])
+;                  chapters)})
+
 (defn -main
   "I don't do a whole lot ... yet."
   [& args]
