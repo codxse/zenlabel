@@ -2,10 +2,13 @@
 <project version="4">
   <component name="BookmarkManager">
     <bookmark url="file://$PROJECT_DIR$/src/zenlabel/core.clj" description="&#10;(def ^{:private true} SUBJECTS&#10;  #&quot;(Matematika Wa..." line="5" />
-    <bookmark url="file://$PROJECT_DIR$/src/zenlabel/core.clj" description="&#10;(defn- create-enum [namespace-name enum]&#10;  (-&gt;&gt; (..." line="45" />
+    <bookmark url="file://$PROJECT_DIR$/src/zenlabel/core.clj" description="&#10;(defn- create-enum [namespace-name enum]&#10;  (-&gt;&gt; (..." line="47" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="92b7605b-3db8-4026-9634-4562d4783b34" name="Default" comment="" />
+    <list default="true" id="92b7605b-3db8-4026-9634-4562d4783b34" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/src/zenlabel/core.clj" beforeDir="false" afterPath="$PROJECT_DIR$/src/zenlabel/core.clj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/subjects.edn" beforeDir="false" afterPath="$PROJECT_DIR$/subjects.edn" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,20 +27,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="core.clj" pinned="false" current-in-tab="false">
+      <file leaf-file-name="core.clj" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/zenlabel/core.clj">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="524">
-              <caret line="67" selection-start-line="67" selection-end-line="72" selection-end-column="30" />
+            <state relative-caret-position="491">
+              <caret line="70" column="44" selection-start-line="70" selection-start-column="44" selection-end-line="70" selection-end-column="44" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="subjects.edn" pinned="false" current-in-tab="true">
+      <file leaf-file-name="subjects.edn" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/subjects.edn">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="326">
-              <caret line="1754" column="47" selection-start-line="1754" selection-start-column="47" selection-end-line="1754" selection-end-column="47" />
+            <state relative-caret-position="-226">
+              <caret line="82" column="32" selection-start-line="82" selection-start-column="32" selection-end-line="82" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -47,12 +50,18 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>:teacher-cbt-problem/pola</find>
+      <find>10-fisika-inti</find>
+      <find>&quot;Fisika SMA Kelas 10 - Kurikulum 2013 Revisi&quot;</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/project.clj" />
+        <option value="$PROJECT_DIR$/subjects.edn" />
         <option value="$PROJECT_DIR$/src/zenlabel/core.clj" />
       </list>
     </option>
@@ -64,9 +73,11 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="y" value="23" />
     <option name="width" value="1680" />
-    <option name="height" value="1050" />
+    <option name="height" value="1027" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -110,7 +121,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.appearance" />
   </component>
-  <component name="ReplState" timestamp="1532496932372">{:repl-history {:ide [], :local [], :remote []}}</component>
+  <component name="ReplState" timestamp="1532505694625">{:repl-history {:ide [], :local [], :remote []}}</component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -184,12 +195,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1532486632228</updated>
-      <workItem from="1532486639278" duration="9649000" />
+      <workItem from="1532486639278" duration="17098000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9649000" />
+    <option name="totallyTimeSpent" value="17098000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -203,11 +214,11 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info active="true" anchor="right" id="REPL" side_tool="true" visible="true" weight="0.35653237" />
+      <window_info anchor="right" id="REPL" side_tool="true" visible="true" weight="0.30769232" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="right" id="Leiningen" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.31384614" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.31384614" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24969475" />
@@ -241,17 +252,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/zenlabel/core.clj">
+    <entry file="file://$PROJECT_DIR$/subjects.edn">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="524">
-          <caret line="67" selection-start-line="67" selection-end-line="72" selection-end-column="30" />
+        <state relative-caret-position="-226">
+          <caret line="82" column="32" selection-start-line="82" selection-start-column="32" selection-end-line="82" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/subjects.edn">
+    <entry file="file://$PROJECT_DIR$/src/zenlabel/core.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="1754" column="47" selection-start-line="1754" selection-start-column="47" selection-end-line="1754" selection-end-column="47" />
+        <state relative-caret-position="491">
+          <caret line="70" column="44" selection-start-line="70" selection-start-column="44" selection-end-line="70" selection-end-column="44" />
         </state>
       </provider>
     </entry>

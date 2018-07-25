@@ -22,7 +22,9 @@
        rest))
 
 (def ^{:private true} NEGATIVE_WORDS
-  #{"Bab" "bab" "-" "01" "02" "03" "04" "05" "06" "07" "08" "09" "1" "2" "3" "4" "5" "6" "7" "8" "9"})
+  (apply merge
+    (->> (range 1 50) (map str) set)
+    #{"Bab" "bab" "-" "01" "02" "03" "04" "05" "06" "07" "08" "09"}))
 
 (defn group-by-subject
   [data]
@@ -53,14 +55,22 @@
 (defn- into-better-data-structure
   [distincted-chapters]
   (into []
-    (for [[subject chapters] (sort distincted-chapters)]
-      {:subject subject
-       :enum-name (create-enum "cbt-exam.chapter" subject)
-       :chapters (into []
-                   (for [[chapter meta-data] (sort chapters)]
-                     {:chapter-name chapter
-                      :enum-name (create-enum "teacher-cbt-problem" chapter)
-                      :contents meta-data}))})))
+    (for [[subject chapters] (into [] distincted-chapters)]
+      (let [chapters-vec (into [] chapters)]
+        {:subject subject
+         :original-name (->> (-> chapters-vec vals vec)
+                             (map (fn [ch] (get-in ch [0 :pelajaran-tingkat-kurikulum])))
+                             (into #{}))
+         :enum-name (create-enum "cbt-exam.subject" subject)
+         :chapters (into []
+                     (for [[chapter meta-data] chapters-vec]
+                       {:chapter-name chapter
+                        :original-name (get-in meta-data [0 :cg-parent])
+                        :kode-contents (->> meta-data
+                                            (map #(do (int (:kode-content %))))
+                                            (into #{}))
+                        :enum-name (create-enum "teacher-cbt-problem.chapter" chapter)
+                        :contents meta-data}))}))))
 
 (defn -main
   "I don't do a whole lot ... yet."
