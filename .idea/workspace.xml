@@ -6,10 +6,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="92b7605b-3db8-4026-9634-4562d4783b34" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Leiningen__args4j_2_0_26.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Leiningen__com_google_code_findbugs_jsr305_1_3_9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Leiningen__com_google_code_gson_gson_2_2_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Leiningen__com_google_guava_guava_18_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Leiningen__com_google_javascript_closure_compiler_externs_v20150126.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Leiningen__com_google_javascript_closure_compiler_v20150126.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Leiningen__com_google_protobuf_protobuf_java_2_5_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Leiningen__com_google_truth_truth_0_24.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Leiningen__junit_4_10.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Leiningen__org_clojure_clojure_1_8_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Leiningen__org_clojure_clojurescript_0_0_3165.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Leiningen__org_clojure_google_closure_library_0_0_20140718_946a7d39.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Leiningen__org_clojure_google_closure_library_third_party_0_0_20140718_946a7d39.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Leiningen__org_clojure_tools_reader_0_8_16.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Leiningen__org_hamcrest_hamcrest_core_1_1.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/zenlabel/core.clj" beforeDir="false" afterPath="$PROJECT_DIR$/src/zenlabel/core.clj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/subjects.edn" beforeDir="false" afterPath="$PROJECT_DIR$/subjects.edn" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zenlabel.iml" beforeDir="false" afterPath="$PROJECT_DIR$/zenlabel.iml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,7 +34,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="project.clj" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/project.clj">
           <provider selected="true" editor-type-id="text-editor">
@@ -32,8 +47,8 @@
       <file leaf-file-name="core.clj" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/zenlabel/core.clj">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="369">
-              <caret line="74" selection-start-line="74" selection-start-column="1" selection-end-line="78" selection-end-column="30" />
+            <state relative-caret-position="59">
+              <caret line="50" column="8" selection-start-line="50" selection-start-column="8" selection-end-line="50" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -41,19 +56,27 @@
       <file leaf-file-name="subjects.edn" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/subjects.edn">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4905">
-              <caret line="327" column="18" selection-start-line="327" selection-start-column="18" selection-end-line="327" selection-end-column="18" />
+            <state relative-caret-position="360">
+              <caret line="24" column="11" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Clojure Namespace" />
+      </list>
+    </option>
+  </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>:teacher-cbt-problem/pola</find>
       <find>10-fisika-inti</find>
       <find>&quot;Fisika SMA Kelas 10 - Kurikulum 2013 Revisi&quot;</find>
+      <find>flatten</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -64,6 +87,7 @@
       <list>
         <option value="$PROJECT_DIR$/project.clj" />
         <option value="$PROJECT_DIR$/subjects.edn" />
+        <option value="$PROJECT_DIR$/enum/edn.clj" />
         <option value="$PROJECT_DIR$/src/zenlabel/core.clj" />
       </list>
     </option>
@@ -74,7 +98,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
     <option name="y" value="23" />
     <option name="width" value="1680" />
     <option name="height" value="1027" />
@@ -85,7 +109,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -94,22 +118,11 @@
               <item name="zenlabel" type="b2602c69:ProjectViewProjectNode" />
               <item name="zenlabel" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="zenlabel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zenlabel" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="zenlabel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zenlabel" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="zenlabel" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -123,7 +136,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.appearance" />
   </component>
-  <component name="ReplState" timestamp="1532506348602">{:repl-history {:ide [], :local [], :remote []}}</component>
+  <component name="ReplState" timestamp="1532681952695">{:repl-history {:ide [], :local [{:command &quot;(map :enum-name (:chapters (second sa)))&quot;, :offset 40, :ns &quot;zenlabel.core&quot;} {:command &quot;(map :enum-name (:chapters (first sa)))&quot;, :offset 39, :ns &quot;zenlabel.core&quot;} {:command &quot;(for [da sa]\n  (map :chapters da))&quot;, :offset 34, :ns &quot;zenlabel.core&quot;} {:command &quot;(for [da sa] \n  da)&quot;, :offset 19, :ns &quot;zenlabel.core&quot;} {:command &quot;(defn- create-enum [namespace-name enum]\n  (-&gt;&gt; (s/replace enum #\&quot;(\\s|\\(|\\)|,)\&quot; \&quot;-\&quot;)\n       (str namespace-name \&quot;/\&quot;)\n       s/lower-case\n       keyword))&quot;, :offset 153, :ns &quot;zenlabel.core&quot;} {:command &quot;\n(def ^{:private true} SUBJECTS\n  #\&quot;(Matematika Wajib|Matematika Peminatan|Matematika SMP|Bahasa Indonesia|Bahasa Inggris|IPA|Biologi|Fisika|Kimia|Sejarah Indonesia|Sejarah Peminatan|Ekonomi|Geografi|Sosiologi)\&quot;)\n\n(def ^{:private true} DATA\n  (-&gt;&gt; (xls/load-workbook \&quot;k13.xlsx\&quot;)\n       (xls/select-sheet \&quot;Default\&quot;)\n       (xls/select-columns\n         {:A :kode-cg-pelajaran-tingkat-kurikulum\n          :B :pelajaran-tingkat-kurikulum\n          :C :kode-content\n          :D :judul-content\n          :E :kode-cg-parent\n          :F :cg-parent\n          :G :total-video\n          :H :durasi-detik})\n       rest))\n\n(def ^{:private true} NEGATIVE_WORDS\n  #{\&quot;Bab\&quot; \&quot;bab\&quot; \&quot;-\&quot; \&quot;01\&quot; \&quot;02\&quot; \&quot;03\&quot; \&quot;04\&quot; \&quot;05\&quot; \&quot;06\&quot; \&quot;07\&quot; \&quot;08\&quot; \&quot;09\&quot; \&quot;1\&quot; \&quot;2\&quot; \&quot;3\&quot; \&quot;4\&quot; \&quot;5\&quot; \&quot;6\&quot; \&quot;7\&quot; \&quot;8\&quot; \&quot;9\&quot;})\n\n(defn group-by-subject\n  [data]\n  (group-by\n    (fn [row]\n      (-&gt; (re-matcher SUBJECTS (:pelajaran-tingkat-kurikulum row))\n          re-find\n          first))\n    data))\n\n(defn- distinct-chapters\n  [grouped-subjects]\n  (into (sorted-map)\n        (for [[subject meta-data] (sort grouped-subjects)]\n          (let [chapter (fn [m]\n                          (-&gt;&gt; (s/split (:cg-parent m) #\&quot;\\s\&quot;)\n                               (remove NEGATIVE_WORDS)\n                               (interpose \&quot; \&quot;)\n                               s/join))]\n            [subject (group-by chapter meta-data)]))))\n\n(defn- create-enum [namespace-name enum]\n  (-&gt;&gt; (s/replace enum #\&quot;(\\s|\\(|\\)|,|.|?|{|}|[|]|\\\\|/|&lt;}&gt;|:|;|+|=|*|^|&amp;|%|$|#|@|!|`|~)\&quot; \&quot;-\&quot;)\n       (str namespace-name \&quot;/\&quot;)\n       s/lower-case\n       keyword))\n\n(defn- into-better-data-structure\n  [distincted-chapters]\n  (into []\n        (for [[subject chapters] (sort distincted-chapters)]\n          {:subject subject\n           :enum-name (create-enum \&quot;cbt-exam.chapter\&quot; subject)\n           :chapters (into []\n                           (for [[chapter meta-data] (sort chapters)]\n                             {:chapter-name chapter\n                              :enum-name (create-enum \&quot;teacher-cbt-problem\&quot; chapter)\n                              :contents meta-data}))})))&quot;, :offset 2063, :ns &quot;zenlabel.core&quot;} {:command &quot;(defn- create-enum [namespace-name enum]\n  (-&gt;&gt; (s/replace enum #\&quot;(\\s|\\(|\\)|,|.|\\?|{|}|[|]|\\\\|/|&lt;}&gt;|:|;|+|=|*|^|&amp;|%|$|#|@|!|`|~)\&quot; \&quot;-\&quot;)\n       (str namespace-name \&quot;/\&quot;)\n       s/lower-case\n       keyword))\n&quot;, :offset 204, :ns &quot;zenlabel.core&quot;} {:command &quot;(defn- create-enum [namespace-name enum]\n  (-&gt;&gt; (s/replace enum #\&quot;(\\s|\\(|\\)|,|.|\\?|{|}|[|]|\\\\|/|&lt;|&gt;|:|;|+|=|*|^|&amp;|%|$|#|@|!|`|~)\&quot; \&quot;-\&quot;)\n       (str namespace-name \&quot;/\&quot;)\n       s/lower-case\n       keyword))&quot;, :offset 203, :ns &quot;zenlabel.core&quot;} {:command &quot;\n(defn- create-enum [namespace-name enum]\n  (-&gt;&gt; (s/replace enum #\&quot;(\\s|\\(|\\)|\\,|\\.|\\?|\\{|\\}|\\[|\\]|\\\\|\\/|\\&lt;|\\&gt;|\\:|\\;|\\+|\\=|\\*|\\^|\\&amp;|\\%|\\$|\\#|\\@|\\!|\\`|\\~)\&quot; \&quot;-\&quot;)\n       (str namespace-name \&quot;/\&quot;)\n       s/lower-case\n       keyword))&quot;, :offset 227, :ns &quot;zenlabel.core&quot;} {:command &quot;\n(def ^{:private true} SUBJECTS\n  #\&quot;(Matematika Wajib|Matematika Peminatan|Matematika SMP|Bahasa Indonesia|Bahasa Inggris|IPA|Biologi|Fisika|Kimia|Sejarah Indonesia|Sejarah Peminatan|Ekonomi|Geografi|Sosiologi)\&quot;)\n\n(def ^{:private true} DATA\n  (-&gt;&gt; (xls/load-workbook \&quot;k13.xlsx\&quot;)\n       (xls/select-sheet \&quot;Default\&quot;)\n       (xls/select-columns\n         {:A :kode-cg-pelajaran-tingkat-kurikulum\n          :B :pelajaran-tingkat-kurikulum\n          :C :kode-content\n          :D :judul-content\n          :E :kode-cg-parent\n          :F :cg-parent\n          :G :total-video\n          :H :durasi-detik})\n       rest))\n\n(def ^{:private true} NEGATIVE_WORDS\n  #{\&quot;Bab\&quot; \&quot;bab\&quot; \&quot;-\&quot; \&quot;01\&quot; \&quot;02\&quot; \&quot;03\&quot; \&quot;04\&quot; \&quot;05\&quot; \&quot;06\&quot; \&quot;07\&quot; \&quot;08\&quot; \&quot;09\&quot; \&quot;1\&quot; \&quot;2\&quot; \&quot;3\&quot; \&quot;4\&quot; \&quot;5\&quot; \&quot;6\&quot; \&quot;7\&quot; \&quot;8\&quot; \&quot;9\&quot;})\n\n(defn group-by-subject\n  [data]\n  (group-by\n    (fn [row]\n      (-&gt; (re-matcher SUBJECTS (:pelajaran-tingkat-kurikulum row))\n          re-find\n          first))\n    data))\n\n(defn- distinct-chapters\n  [grouped-subjects]\n  (into (sorted-map)\n        (for [[subject meta-data] (sort grouped-subjects)]\n          (let [chapter (fn [m]\n                          (-&gt;&gt; (s/split (:cg-parent m) #\&quot;\\s\&quot;)\n                               (remove NEGATIVE_WORDS)\n                               (interpose \&quot; \&quot;)\n                               s/join))]\n            [subject (group-by chapter meta-data)]))))\n\n(defn- create-enum [namespace-name enum]\n  (-&gt;&gt; (s/replace enum #\&quot;(\\s|\\(|\\)|\\,|\\.|\\?|\\{|\\}|\\[|\\]|\\\\|\\/|\\&lt;|\\&gt;|\\:|\\;|\\+|\\=|\\*|\\^|\\&amp;|\\%|\\$|\\#|\\@|\\!|\\`|\\~)\&quot; \&quot;-\&quot;)\n       (str namespace-name \&quot;/\&quot;)\n       s/lower-case\n       keyword))\n\n(defn- into-better-data-structure\n  [distincted-chapters]\n  (into []\n        (for [[subject chapters] (sort distincted-chapters)]\n          {:subject subject\n           :enum-name (create-enum \&quot;cbt-exam.chapter\&quot; subject)\n           :chapters (into []\n                           (for [[chapter meta-data] (sort chapters)]\n                             {:chapter-name chapter\n                              :enum-name (create-enum \&quot;teacher-cbt-problem\&quot; chapter)\n                              :contents meta-data}))})))&quot;, :offset 2087, :ns &quot;zenlabel.core&quot;} {:command &quot;(def sa (-&gt;&gt; (group-by-subject DATA)\n             distinct-chapters\n             into-better-data-structure\n             pprint\n             with-out-str\n             (spit \&quot;subjects.edn\&quot;)))&quot;, :offset 37, :ns &quot;zenlabel.core&quot;} {:command &quot;sa&quot;, :offset 2, :ns &quot;zenlabel.core&quot;} {:command &quot;(def sa (-&gt;&gt; (group-by-subject DATA)\n             distinct-chapters\n             into-better-data-structure))&quot;, :offset 109, :ns &quot;zenlabel.core&quot;} {:command &quot;(for [{:keys [chapters]} sa] \n  (map :enum-name chapters))&quot;, :offset 58, :ns &quot;zenlabel.core&quot;} {:command &quot;(range 1 30)&quot;, :offset 12, :ns &quot;zenlabel.core&quot;} {:command &quot;(map str (range 1 30))&quot;, :offset 22, :ns &quot;zenlabel.core&quot;} {:command &quot;(set (map str (range 1 30)))&quot;, :offset 5, :ns &quot;zenlabel.core&quot;} {:command &quot;(merge #{1 2 3} {1 2 3 4 5})&quot;, :offset 28, :ns &quot;zenlabel.core&quot;} {:command &quot;(merge #{1 2 3} #{1 2 3 4 5})&quot;, :offset 29, :ns &quot;zenlabel.core&quot;} {:command &quot;(clojure.set/join #{1 2 3} #{1 2 3 4 5})&quot;, :offset 17, :ns &quot;zenlabel.core&quot;} {:command &quot;(apply merge #{1 2 3} #{1 2 3 4 5})&quot;, :offset 12, :ns &quot;zenlabel.core&quot;} {:command &quot;(apply merge\n       (-&gt;&gt; (range 1 50) (map str) set)\n       #{\&quot;Bab\&quot; \&quot;bab\&quot; \&quot;-\&quot; \&quot;01\&quot; \&quot;02\&quot; \&quot;03\&quot; \&quot;04\&quot; \&quot;05\&quot; \&quot;06\&quot; \&quot;07\&quot; \&quot;08\&quot; \&quot;09\&quot;})&quot;, :offset 124, :ns &quot;zenlabel.core&quot;} {:command &quot;\n(def ^{:private true} SUBJECTS\n  #\&quot;(Matematika Wajib|Matematika Peminatan|Matematika SMP|Bahasa Indonesia|Bahasa Inggris|IPA|Biologi|Fisika|Kimia|Sejarah Indonesia|Sejarah Peminatan|Ekonomi|Geografi|Sosiologi)\&quot;)\n\n(def ^{:private true} DATA\n  (-&gt;&gt; (xls/load-workbook \&quot;k13.xlsx\&quot;)\n       (xls/select-sheet \&quot;Default\&quot;)\n       (xls/select-columns\n         {:A :kode-cg-pelajaran-tingkat-kurikulum\n          :B :pelajaran-tingkat-kurikulum\n          :C :kode-content\n          :D :judul-content\n          :E :kode-cg-parent\n          :F :cg-parent\n          :G :total-video\n          :H :durasi-detik})\n       rest))\n\n(def ^{:private true} NEGATIVE_WORDS\n  (apply merge\n         (-&gt;&gt; (range 1 50) (map str) set)\n         #{\&quot;Bab\&quot; \&quot;bab\&quot; \&quot;-\&quot; \&quot;01\&quot; \&quot;02\&quot; \&quot;03\&quot; \&quot;04\&quot; \&quot;05\&quot; \&quot;06\&quot; \&quot;07\&quot; \&quot;08\&quot; \&quot;09\&quot;}))\n\n(defn group-by-subject\n  [data]\n  (group-by\n    (fn [row]\n      (-&gt; (re-matcher SUBJECTS (:pelajaran-tingkat-kurikulum row))\n          re-find\n          first))\n    data))\n\n(defn- distinct-chapters\n  [grouped-subjects]\n  (into (sorted-map)\n        (for [[subject meta-data] (sort grouped-subjects)]\n          (let [chapter (fn [m]\n                          (-&gt;&gt; (s/split (:cg-parent m) #\&quot;\\s\&quot;)\n                               (remove NEGATIVE_WORDS)\n                               (interpose \&quot; \&quot;)\n                               s/join))]\n            [subject (group-by chapter meta-data)]))))\n\n(defn- create-enum [namespace-name enum]\n  (-&gt;&gt; (s/replace enum #\&quot;(\\s|\\(|\\)|\\,|\\.|\\?|\\{|\\}|\\[|\\]|\\\\|\\/|\\&lt;|\\&gt;|\\:|\\;|\\+|\\=|\\*|\\^|\\&amp;|\\%|\\$|\\#|\\@|\\!|\\`|\\~)\&quot; \&quot;-\&quot;)\n       (str namespace-name \&quot;/\&quot;)\n       s/lower-case\n       keyword))\n\n(defn- into-better-data-structure\n  [distincted-chapters]\n  (into []\n        (for [[subject chapters] (sort distincted-chapters)]\n          {:subject subject\n           :enum-name (create-enum \&quot;cbt-exam.chapter\&quot; subject)\n           :chapters (into []\n                           (for [[chapter meta-data] (sort chapters)]\n                             {:chapter-name chapter\n                              :enum-name (create-enum \&quot;teacher-cbt-problem\&quot; chapter)\n                              :contents meta-data}))})))\n&quot;, :offset 2117, :ns &quot;zenlabel.core&quot;} {:command &quot;(def sa   (-&gt;&gt; (group-by-subject DATA)\n               distinct-chapters\n               into-better-data-structure))&quot;, :offset 115, :ns &quot;zenlabel.core&quot;} {:command &quot;(for [{:keys [chapters enum-name]} sa] \n  [enum-name (map :enum-name chapters)])&quot;, :offset 80, :ns &quot;zenlabel.core&quot;} {:command &quot;(distinct-chapters (group-by-subject DATA))&quot;, :offset 43, :ns &quot;zenlabel.core&quot;} {:command &quot;(defn- into-better-data-structure\n  [distincted-chapters]\n  (into []\n        (for [[subject chapters] (sort distincted-chapters)]\n          (let [chapters-vec (into [] chapters)]\n            {:subject subject\n             :original-name (get-in chapters-vec [1 0 :pelajaran-tingkat-kurikulum])\n             :enum-name (create-enum \&quot;cbt-exam.subject\&quot; subject)\n             :chapters (into []\n                             (for [[chapter meta-data] chapters-vec]\n                               {:chapter-name chapter\n                                :original-name (get-in meta-data [0 :cg-parent])\n                                :enum-name (create-enum \&quot;teacher-cbt-problem.chapter\&quot; chapter)\n                                :contents meta-data}))}))))&quot;, :offset 749, :ns &quot;zenlabel.core&quot;} {:command &quot;(-&gt;&gt; (group-by-subject DATA)\n     distinct-chapters\n     into-better-data-structure)&quot;, :offset 83, :ns &quot;zenlabel.core&quot;} {:command &quot;(let [[_ c] d] \n  c)&quot;, :offset 20, :ns &quot;zenlabel.core&quot;} {:command &quot;(let [[_ c] (into [] d)] \n  c)&quot;, :offset 30, :ns &quot;zenlabel.core&quot;} {:command &quot;(-&gt; (get-in (into [] c) ))&quot;, :offset 24} {:command &quot;(def c (let [[_ c] (into [] d)] \n         c))&quot;, :offset 45, :ns &quot;zenlabel.core&quot;} {:command &quot;(-&gt; (get-in (into [] c) [1]))&quot;, :offset 29, :ns &quot;zenlabel.core&quot;} {:command &quot;(for [[subject chapters] (into [] d)] \n  (let [cv (into [] chapters)] \n    {:subject subject \n     :original-name cv})) \n     &quot;, :offset 119, :ns &quot;zenlabel.core&quot;} {:command &quot;(for [[subject chapters] (into [] d)] \n  (let [cv (into [] chapters)] \n    {:subject subject \n     :original-name (-&gt; (get-in cv [0 1 :kode-cg-pelajaran-tingkat-kurikulum]))})) \n     &quot;, :offset 176, :ns &quot;zenlabel.core&quot;} {:command &quot;(for [[subject chapters] (into [] d)] \n  (let [cv (into [] chapters)] \n    {:subject subject \n     :original-name (-&gt; (get-in cv [0 1 :pelajaran-tingkat-kurikulum]))})) \n     &quot;, :offset 169, :ns &quot;zenlabel.core&quot;} {:command &quot;(for [[subject chapters] (into [] d)] \n  (let [cv (into [] chapters)] \n    {:subject subject \n     :original-name (-&gt; (get-in cv [0 1]))}))\n     &quot;, :offset 139, :ns &quot;zenlabel.core&quot;} {:command &quot;(for [[subject chapters] (into [] d)] \n  (let [cv (into [] chapters)] \n    {:subject subject \n     :original-name (-&gt; (get-in cv [0 1 0 :pelajaran-tingkat-kurikulum]))}))\n     &quot;, :offset 170, :ns &quot;zenlabel.core&quot;} {:command &quot;(for [[subject chapters] (into [] d)] \n  (let [cv (into [] chapters)] \n    {:subject subject \n     :original-name (-&gt; (get-in cv [0 1] ))}))\n     &quot;, :offset 140, :ns &quot;zenlabel.core&quot;} {:command &quot;(for [[subject chapters] (into [] d)] \n  (let [cv (into [] chapters)] \n    {:subject subject \n     :original-name (-&gt;&gt; (get-in cv [0 1])\n                         (map :pelajaran-tingkat-kurikulum))})) \n                         \n     &quot;, :offset 227, :ns &quot;zenlabel.core&quot;} {:command &quot;(for [[subject chapters] (into [] d)] \n  (let [cv (into [] chapters)] \n    {:subject subject \n     :original-name (-&gt;&gt; (get-in cv [0 1])\n                         (map :pelajaran-tingkat-kurikulum) \n                         distinct)}))\n     &quot;, :offset 235, :ns &quot;zenlabel.core&quot;} {:command &quot;(for [[subject chapters] (into [] d)] \n  (let [cv (into [] chapters)] \n    {:subject subject \n     :original-name (-&gt;&gt; (get-in cv [0 1])\n                         (map :pelajaran-tingkat-kurikulum))}))\n     &quot;, :offset 200, :ns &quot;zenlabel.core&quot;} {:command &quot;(map :pelajaran-tingkat-kurikulum DATA)&quot;, :offset 39, :ns &quot;zenlabel.core&quot;} {:command &quot;(group-by-subject DATA)&quot;, :offset 23, :ns &quot;zenlabel.core&quot;} {:command &quot;(vals (group-by-subject DATA))&quot;, :offset 30, :ns &quot;zenlabel.core&quot;} {:command &quot;(first (vals (group-by-subject DATA)))&quot;, :offset 7, :ns &quot;zenlabel.core&quot;} {:command &quot;(map :pelajaran-tingkat-kurikulum (first (vals (group-by-subject DATA))))&quot;, :offset 73, :ns &quot;zenlabel.core&quot;} {:command &quot;(re-find (re-matcher #\&quot;(matematika ipa|matematika ips)\&quot; \&quot;ini adalah matematika ipa dadaa\&quot;))&quot;, :offset 91, :ns &quot;zenlabel.core&quot;} {:command &quot;(re-find (re-matcher #\&quot;(matematika ipa|matematika ips)\&quot; \&quot;ini adalah matematika ipx dadaa\&quot;))&quot;, :offset 91, :ns &quot;zenlabel.core&quot;} {:command &quot;(re-find (re-matcher #\&quot;(matematika ipa|matematika ips)\&quot; \&quot;ini adalah matematika ips matematika ipa dadaa\&quot;))&quot;, :offset 106, :ns &quot;zenlabel.core&quot;} {:command &quot;(some #(re-find (re-matcher #\&quot;matenatika ipa\&quot; %))\n      [\&quot;matematika\&quot; \&quot;matematika IPA\&quot;])&quot;, :offset 88, :ns &quot;zenlabel.core&quot;} {:command &quot;(map #(re-find (re-matcher #\&quot;matenatika ipa\&quot; %))\n      [\&quot;matematika\&quot; \&quot;matematika IPA\&quot;])&quot;, :offset 87, :ns &quot;zenlabel.core&quot;} {:command &quot;(map #(re-find (re-matcher #\&quot;matenatika ipa\&quot; %))\n      [\&quot;matematika\&quot; \&quot;matematika ipa\&quot;])&quot;, :offset 87, :ns &quot;zenlabel.core&quot;} {:command &quot;(map #(re-find (re-matcher #\&quot;ipa\&quot; %))\n      [\&quot;matematika\&quot; \&quot;matematika ipa\&quot;])&quot;, :offset 76, :ns &quot;zenlabel.core&quot;} {:command &quot;DATA&quot;, :offset 4, :ns &quot;zenlabel.core&quot;} {:command &quot;(def ^{:private true} SUBJECTS\n  #\&quot;(Matematika Wajib|Matematika Peminatan|Matematika SMP|Bahasa Indonesia|Bahasa Inggris|IPA|Biologi|Fisika|Kimia|Sejarah Indonesia|Sejarah Peminatan|Ekonomi|Geografi|Sosiologi)\&quot;)&quot;, :offset 211, :ns &quot;zenlabel.core&quot;} {:command &quot;(re-matcher SUBJECTS \&quot;Matematika Wajib\&quot;)&quot;, :offset 40, :ns &quot;zenlabel.core&quot;} {:command &quot;(re-find (re-matcher SUBJECTS \&quot;Matematika Wajib\&quot;))&quot;, :offset 50, :ns &quot;zenlabel.core&quot;} {:command &quot;(def judul (map :pelajaran-tingkat-kurikulum DATA))&quot;, :offset 51, :ns &quot;zenlabel.core&quot;} {:command &quot;(def judul (sort (map :pelajaran-tingkat-kurikulum DATA)))&quot;, :offset 58, :ns &quot;zenlabel.core&quot;} {:command &quot;(map #(re-find (re-matcher SUBJECTS %)) judul)&quot;, :offset 46, :ns &quot;zenlabel.core&quot;} {:command &quot;(map #(do {:res (re-find (re-matcher SUBJECTS %))\n           :ori %})\n     (distinct judul))&quot;, :offset 92, :ns &quot;zenlabel.core&quot;} {:command &quot;(defn- into-better-data-structure\n  [distincted-chapters]\n  (into []\n        (for [[subject chapters] (into [] distincted-chapters)]\n          (let [chapters-vec (into [] chapters)]\n            {:subject subject\n             :original-name (get-in chapters-vec [0 1 0 :pelajaran-tingkat-kurikulum])\n             :enum-name (create-enum \&quot;cbt-exam.subject\&quot; subject)\n             :chapters (into []\n                             (for [[chapter meta-data] chapters-vec]\n                               {:chapter-name chapter\n                                :original-name (get-in meta-data [0 :cg-parent])\n                                :enum-name (create-enum \&quot;teacher-cbt-problem.chapter\&quot; chapter)\n                                :contents meta-data}))}))))&quot;, :offset 754, :ns &quot;zenlabel.core&quot;} {:command &quot;judul&quot;, :offset 5, :ns &quot;zenlabel.core&quot;} {:command &quot;(map #(do {:res (first (re-find (re-matcher SUBJECTS %)))\n           :ori %})\n     (distinct judul))&quot;, :offset 100, :ns &quot;zenlabel.core&quot;} {:command &quot;(def d (-&gt;&gt; (group-by-subject DATA))\n       distinct-chapters)&quot;, :offset 62, :ns &quot;zenlabel.core&quot;} {:command &quot;(def d (-&gt;&gt; (group-by-subject DATA)\n            distinct-chapters))&quot;, :offset 36, :ns &quot;zenlabel.core&quot;} {:command &quot;d&quot;, :offset 1, :ns &quot;zenlabel.core&quot;} {:command &quot;(for [[subject chapters] (into [] d)]\n  (let [cv (into [] chapters)]\n    {:subject subject\n     :original-name (-&gt;&gt; (get-in cv [0 1])\n                         (map :pelajaran-tingkat-kurikulum))}))&quot;, :offset 197, :ns &quot;zenlabel.core&quot;} {:command &quot;(for [[subject chapters] (into [] d)]\n  (let [cv (into [] chapters)]\n    {:subject subject\n     :original-name (-&gt;&gt; (get-in cv [0]))}))&quot;, :offset 135, :ns &quot;zenlabel.core&quot;} {:command &quot;(for [[subject chapters] (into [] d)]\n  (let [cv (into [] chapters)]\n    {:subject subject\n     :original-name cv}))&quot;, :offset 116, :ns &quot;zenlabel.core&quot;} {:command &quot;(for [[subject chapters] (into [] d)]\n  (let [cv (into [] chapters)]\n    {:subject subject\n     :original-name (keys cv)}))&quot;, :offset 123, :ns &quot;zenlabel.core&quot;} {:command &quot;(for [[subject chapters] (into [] d)]\n  (let [cv (into [] chapters)]\n    {:subject subject\n     :original-name (map :pelajaran-tingkat-kurikulum (vals cv))}))&quot;, :offset 158, :ns &quot;zenlabel.core&quot;} {:command &quot;(for [[subject chapters] (into [] d)]\n  (let [cv (into [] chapters)]\n    {:subject subject\n     :original-name (vals cv)}))&quot;, :offset 123, :ns &quot;zenlabel.core&quot;} {:command &quot;(for [[subject chapters] (into [] d)]\n  (let [cv (into [] chapters)]\n    {:subject subject\n     :original-name (map (fn [ch] \n                           (get-in ch [0 :pelajaran-tingkat-kurikulum])) \n                         (-&gt; cv vals vec))}))&quot;, :offset 245, :ns &quot;zenlabel.core&quot;} {:command &quot;(for [[subject chapters] (into [] d)]\n  (let [cv (into [] chapters)]\n    {:subject subject\n     :original-name (distinct (map (fn [ch] \n                                     (get-in ch [0 :pelajaran-tingkat-kurikulum])) \n                                   (-&gt; cv vals vec)))}))&quot;, :offset 276, :ns &quot;zenlabel.core&quot;} {:command &quot;(def d\n  (-&gt;&gt; (group-by-subject DATA)\n       distinct-chapters\n       into-better-data-structure))&quot;, :offset 64, :ns &quot;zenlabel.core&quot;} {:command &quot;(map d :subject)&quot;, :offset 16, :ns &quot;zenlabel.core&quot;} {:command &quot;(map #(select-keys % [:subject :original-name])\n     d)&quot;, :offset 55, :ns &quot;zenlabel.core&quot;} {:command &quot;(into #{} [1 1 1 2 3])&quot;, :offset 22, :ns &quot;zenlabel.core&quot;} {:command &quot;(def ^{:private true} SUBJECTS\n  #\&quot;(Matematika Wajib|Matematika Peminatan|Matematika SMP|Bahasa Indonesia|Bahasa Inggris|IPA|Biologi|Fisika|Kimia|Sejarah Indonesia|Sejarah Peminatan|Ekonomi|Geografi|Sosiologi)\&quot;)\n\n(def ^{:private true} DATA\n  (-&gt;&gt; (xls/load-workbook \&quot;k13.xlsx\&quot;)\n       (xls/select-sheet \&quot;Default\&quot;)\n       (xls/select-columns\n         {:A :kode-cg-pelajaran-tingkat-kurikulum\n          :B :pelajaran-tingkat-kurikulum\n          :C :kode-content\n          :D :judul-content\n          :E :kode-cg-parent\n          :F :cg-parent\n          :G :total-video\n          :H :durasi-detik})\n       rest))\n\n(def ^{:private true} NEGATIVE_WORDS\n  (apply merge\n         (-&gt;&gt; (range 1 50) (map str) set)\n         #{\&quot;Bab\&quot; \&quot;bab\&quot; \&quot;-\&quot; \&quot;01\&quot; \&quot;02\&quot; \&quot;03\&quot; \&quot;04\&quot; \&quot;05\&quot; \&quot;06\&quot; \&quot;07\&quot; \&quot;08\&quot; \&quot;09\&quot;}))\n\n(defn group-by-subject\n  [data]\n  (group-by\n    (fn [row]\n      (-&gt; (re-matcher SUBJECTS (:pelajaran-tingkat-kurikulum row))\n          re-find\n          first))\n    data))\n\n(defn- distinct-chapters\n  [grouped-subjects]\n  (into (sorted-map)\n        (for [[subject meta-data] (sort grouped-subjects)]\n          (let [chapter (fn [m]\n                          (-&gt;&gt; (s/split (:cg-parent m) #\&quot;\\s\&quot;)\n                               (remove NEGATIVE_WORDS)\n                               (interpose \&quot; \&quot;)\n                               s/join))]\n            [subject (group-by chapter meta-data)]))))\n\n(defn- create-enum [namespace-name enum]\n  (-&gt;&gt; (s/replace enum #\&quot;(\\s|\\(|\\)|\\,|\\.|\\?|\\{|\\}|\\[|\\]|\\\\|\\/|\\&lt;|\\&gt;|\\:|\\;|\\+|\\=|\\*|\\^|\\&amp;|\\%|\\$|\\#|\\@|\\!|\\`|\\~)\&quot; \&quot;-\&quot;)\n       (str namespace-name \&quot;/\&quot;)\n       s/lower-case\n       keyword))\n\n(defn- into-better-data-structure\n  [distincted-chapters]\n  (into []\n        (for [[subject chapters] (into [] distincted-chapters)]\n          (let [chapters-vec (into [] chapters)]\n            {:subject subject\n             :original-name (-&gt;&gt; (-&gt; chapters-vec vals vec)\n                                 (map (fn [ch] (get-in ch [0 :pelajaran-tingkat-kurikulum])))\n                                 (into #{}))\n             :enum-name (create-enum \&quot;cbt-exam.subject\&quot; subject)\n             :chapters (into []\n                             (for [[chapter meta-data] chapters-vec]\n                               {:chapter-name chapter\n                                :original-name (get-in meta-data [0 :cg-parent])\n                                :kode-contents (-&gt;&gt; meta-data\n                                                    (map #(do (int (:kode-content %))))\n                                                    (into #{}))\n                                :enum-name (create-enum \&quot;teacher-cbt-problem.chapter\&quot; chapter)\n                                :contents meta-data}))}))))&quot;, :offset 2681, :ns &quot;zenlabel.core&quot;} {:command &quot;(def d (-&gt;&gt; (group-by-subject DATA)\n            distinct-chapters\n            into-better-data-structure))&quot;, :offset 106, :ns &quot;zenlabel.core&quot;} {:command &quot;(map :subject d)&quot;, :offset 16, :ns &quot;zenlabel.core&quot;} {:command &quot;(for [{:keys [subject original-name chapters]}\n      d] \n  {:upper [subject original-name] \n   :chapters (map :chapter-name chapters)}) \n\n     &quot;, :offset 135, :ns &quot;zenlabel.core&quot;} {:command &quot;(for [{:keys [subject original-name chapters]}\n      d] \n  {:upper [subject original-name] \n   :chapters (map #(select-keys [:kode-content :chapter-name] %)\n                  chapters)}) \n\n     &quot;, :offset 187, :ns &quot;zenlabel.core&quot;} {:command &quot;(for [{:keys [subject original-name chapters]}\n      d] \n  {:upper [subject original-name] \n   :chapters (map #(select-keys % [:kode-content :chapter-name])\n                  chapters)}) \n\n     &quot;, :offset 187, :ns &quot;zenlabel.core&quot;} {:command &quot;(for [{:keys [subject original-name chapters]}\n      d] \n  {:upper [subject original-name] \n   :chapters (map #(select-keys % [:kode-contents :chapter-name])\n                  chapters)}) \n\n     &quot;, :offset 188, :ns &quot;zenlabel.core&quot;} {:command &quot;(for [{:keys [subject original-name chapters]}\n      (-&gt;&gt; (group-by-subject DATA) distinct-chapters)]\n  {:upper [subject original-name]\n   :chapters (map #(select-keys % [:kode-contents :chapter-name])\n                  chapters)})&quot;, :offset 231, :ns &quot;zenlabel.core&quot;} {:command &quot;(for [{:keys [subject original-name chapters]}\n      (-&gt;&gt; (group-by-subject DATA) distinct-chapters into-better-data-structure)]\n  {:upper [subject original-name]\n   :chapters (map #(select-keys % [:kode-contents :chapter-name])\n                  chapters)})&quot;, :offset 258, :ns &quot;zenlabel.core&quot;} {:command &quot;\n(def calvin\n  {:tryout/exam-packets\n                       [{:db/id 17592186079911,\n                         :exam-packet/exams\n                         [{:cbt-exam/time 3600,\n                           :cbt-exam/empty-value 0,\n                           :cbt-exam/active? true,\n                           :cbt-exam/description \&quot;untuk uji kompetensihfevbbghrl\&quot;,\n                           :cbt-exam/randomize-problem-order? false,\n                           :cbt-exam/redoable? true,\n                           :cbt-exam/schedule #inst \&quot;2018-07-26T04:45:58.696-00:00\&quot;,\n                           :cbt-exam/wrong-value -2,\n                           :cbt-exam/order 1,\n                           :cbt-exam/scale :cbt-exam.scale/uts,\n                           :cbt-exam/name \&quot;ulangan sohktlzlpv?\&quot;,\n                           :cbt-exam/teacher #:user{:fullname \&quot;sarwono McBeats\&quot;},\n                           :cbt-exam/problem-order\n                           \&quot;[[1 \\\&quot;5b595206-7685-4de7-ade2-5084c20e85bd\\\&quot;]]\&quot;,\n                           :cbt-exam/show-score? true,\n                           :db/id 17592186079910,\n                           :cbt-exam/correct-value 2,\n                           :cbt-exam/problem-quantity 1,\n                           :cbt-exam/token \&quot;fhnjpd\&quot;,\n                           :cbt-exam/status :cbt-exam.status/finalized,\n                           :cbt-exam/answers \&quot;[\\\&quot;T\\\&quot;]\&quot;,\n                           :cbt-exam/id \&quot;5b595206-87c1-490e-9167-7a3162ad5414\&quot;,\n                           :cbt-exam/problems\n                           [{:teacher-cbt-problem/group 0,\n                             :teacher-cbt-problem/rendered-problem-img-url\n                             \&quot;https://sma.zenpres.com/znet_problem/36d82382-393e-11e6-ac61-9e71128cae77.png\&quot;,\n                             :teacher-cbt-problem/order 1,\n                             :teacher-cbt-problem/img-url\n                             \&quot;https://sma.zenpres.com/img/0a814139-c245-447c-a05f-257147b82cae.png\&quot;,\n                             :teacher-cbt-problem/listening? false,\n                             :teacher-cbt-problem/text \&quot;ini teks aabpgcmzlsbtjptkxghy?\&quot;,\n                             :teacher-cbt-problem/audio-url \&quot;\&quot;,\n                             :teacher-cbt-problem/id \&quot;5b595206-7685-4de7-ade2-5084c20e85bd\&quot;,\n                             :teacher-cbt-problem/answer \&quot;T\&quot;,\n                             :teacher-cbt-problem/theory-url\n                             \&quot;https://www.zenius.net/c/2930/bilangan-cacah-0-sampai-20-subbab-1\&quot;,\n                             :problem/answer-type :problem.answer-type/ABCDE,\n                             :teacher-cbt-problem/explanation-url\n                             \&quot;https://www.zenius.net/c/2930/bilangan-cacah-0-sampai-20-subbab-1\&quot;}]}],\n                         :exam-packet/id \&quot;fda7616f-0d4b-49e8-b604-9a876e9e616e\&quot;,\n                         :exam-packet/duration 644,\n                         :exam-packet/exams-order\n                         \&quot;[[1 \\\&quot;5b595206-87c1-490e-9167-7a3162ad5414\\\&quot;]]\&quot;,\n                         :exam-packet/order 1}],\n   :tryout/id \&quot;7433ff88-817f-40ac-96b7-ca547b265210\&quot;,\n   :tryout/active? true,\n   :tryout/description \&quot;Keterangan V7UQmNc\&quot;,\n   :tryout/packets-order\n                       \&quot;[[1 \\\&quot;fda7616f-0d4b-49e8-b604-9a876e9e616e\\\&quot;]]\&quot;,\n   :tryout/start-date #inst \&quot;2018-06-11T00:00:00.000-00:00\&quot;,\n   :db/id 17592186079912,\n   :tryout/end-date #inst \&quot;2018-07-26T04:00:00.000-00:00\&quot;,\n   :tryout/name \&quot;Tryout: XL3D1aPq18RbXAw8\&quot;})\n&quot;, :offset 3494, :ns &quot;zenlabel.core&quot;} {:command &quot;(into [] calv)&quot;, :offset 14, :ns &quot;zenlabel.core&quot;} {:command &quot;(into [] calvin)&quot;, :offset 16, :ns &quot;zenlabel.core&quot;} {:command &quot;calvin&quot;, :offset 6, :ns &quot;zenlabel.core&quot;} {:command &quot; (flatten calvin)&quot;, :offset 17, :ns &quot;zenlabel.core&quot;} {:command &quot; calvin&quot;, :offset 1, :ns &quot;zenlabel.core&quot;} {:command &quot; (flatten [calvin])&quot;, :offset 19, :ns &quot;zenlabel.core&quot;} {:command &quot; (sort calvin)&quot;, :offset 14, :ns &quot;zenlabel.core&quot;} {:command &quot;(require '[clojure.walk :as walk])&quot;, :offset 34, :ns &quot;zenlabel.core&quot;} {:command &quot;(walk/postwalk\n  #(if (map? %) (dissoc % :exam-packet/id) %) calvin)&quot;, :offset 68, :ns &quot;zenlabel.core&quot;} {:command &quot;:exam-packet/id&quot;, :offset 15} {:command &quot;(walk/postwalk\n  #(if (map? %) (dissoc % :exam-packet/id :teacher-cbt-problem/id :cbt-exam/id :tryout/id)  %) calvin)&quot;, :offset 117, :ns &quot;zenlabel.core&quot;}], :remote []}}</component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -197,47 +210,49 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1532486632228</updated>
-      <workItem from="1532486639278" duration="17751000" />
+      <workItem from="1532486639278" duration="18665000" />
+      <workItem from="1532595553396" duration="2898000" />
+      <workItem from="1532680912100" duration="965000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17751000" />
+    <option name="totallyTimeSpent" value="22528000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+    <frame x="0" y="0" width="1680" height="1050" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info id="Image Layers" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info active="true" anchor="right" id="REPL" side_tool="true" visible="true" weight="0.30769232" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" order="3" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="right" id="REPL" order="3" side_tool="true" visible="true" weight="0.3907204" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="right" id="Leiningen" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.31384614" />
-      <window_info id="Capture Tool" />
-      <window_info id="Designer" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24969475" />
-      <window_info anchor="right" id="Database" />
-      <window_info id="Learn" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="right" id="Leiningen" order="3" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.31384614" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="2" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25579977" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info id="Learn" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" />
-      <window_info anchor="right" id="Theme Preview" />
+      <window_info id="UI Designer" order="2" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -263,8 +278,56 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/zenlabel/core.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="369">
+        <state relative-caret-position="2460">
+          <caret line="164" column="38" lean-forward="true" selection-start-line="164" selection-start-column="38" selection-end-line="164" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/zenlabel/core.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1110">
           <caret line="74" selection-start-line="74" selection-start-column="1" selection-end-line="78" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/subjects.edn">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4905">
+          <caret line="327" column="18" selection-start-line="327" selection-start-column="18" selection-end-line="327" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/enum/edn.clj">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/enum.edn">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/subjects.edn">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="11" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/zenlabel/core.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="59">
+          <caret line="50" column="8" selection-start-line="50" selection-start-column="8" selection-end-line="50" selection-end-column="8" />
         </state>
       </provider>
     </entry>

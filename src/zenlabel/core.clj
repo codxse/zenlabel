@@ -48,7 +48,7 @@
 
 (defn- create-enum [namespace-name enum]
   (->> (s/replace enum #"(\s|\(|\)|\,|\.|\?|\{|\}|\[|\]|\\|\/|\<|\>|\:|\;|\+|\=|\*|\^|\&|\%|\$|\#|\@|\!|\`|\~)" "-")
-       (str namespace-name "/")
+       ;(str namespace-name "/")
        s/lower-case
        keyword))
 
@@ -84,6 +84,9 @@
   (->> (group-by-subject DATA)
        distinct-chapters
        into-better-data-structure
+       (map (fn [m]
+              {:subject (:enum-name m)
+               :chapters (mapv :enum-name (:chapters m))}))
        pprint
        with-out-str
        (spit "subjects.edn")))
