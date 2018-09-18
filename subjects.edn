@@ -124,10 +124,10 @@
    :suhu-dan-kalor]}
  {:subject :geografi,
   :chapters
-  [:bab-penelitian-geografi
+  [:penelitian-geografi
    :konsep-wilayah-dan-tata-ruang
    :kerjasama-negara-maju-dan-berkembang
-   :bab-kemampuan-dasar-geografi
+   :kemampuan-dasar-geografi
    :pemanfaatan-peta--penginndraan-jauh--dan-sistem-informasi-geografis]}
  {:subject :ipa,
   :chapters
