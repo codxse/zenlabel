@@ -1,0 +1,31 @@
+[{:eksponen-dan-logaritma [{:content-id    1
+                                  :subject        :matematika
+                                  :canonical-name "teori-eksponen-logaritma"}
+
+                                 {:content-id 2
+                                  :subject :matematika}]
+  1 :eksponen-dan-logaritma
+  2 :eksponen-dan-logaritma
+  :jejak-sejarah [{:content-id 30
+                   :subject :sejarah
+                   :chapter-znet :jejak-sejarah-materi}
+                  {:content-id 31
+                   :subject :sejarah
+                   :chapter-znet :jejak-sejarah-soal}
+                  {:content-id 32
+                   :subject :sejarah
+                   :chapter-znet :jejak-sejarah-teori}]
+
+  30 {:cbt-chapter :jejak-sejarah
+      :znet-chapter :jejak-sejarah-teori}
+  31 {:cbt-chapter :jejak-sejarah
+      :znet-chapter :jejak-sejarah-soal}
+  32 {:cbt-chapter :jejak-sejarah
+      :znet-chapter :jejak-sejarah-materi}}]
+;;
+;; per grup harus ada subject
+
+{"soal-soal ptn" -> "soal-seleksi-ptn"
+ "soal-soal-un" -> "soal-un"}
+
+

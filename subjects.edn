@@ -124,10 +124,10 @@
    :suhu-dan-kalor]}
  {:subject :geografi,
   :chapters
-  [:penelitian-geografi
+  [:bab-penelitian-geografi
    :konsep-wilayah-dan-tata-ruang
    :kerjasama-negara-maju-dan-berkembang
-   :kemampuan-dasar-geografi
+   :bab-kemampuan-dasar-geografi
    :pemanfaatan-peta--penginndraan-jauh--dan-sistem-informasi-geografis]}
  {:subject :ipa,
   :chapters
@@ -197,26 +197,7 @@
    :isomeri
    :persiapan-penilaian-tengah-semester--pts-
    :sistem-koloid]}
- {:subject :matematika-peminatan,
-  :chapters
-  [:sistem-persamaan-dua-variabel--linear-kuadrat-dan-kuadrat-kuadrat-
-   :grafik--persamaan--dan-pertidaksamaan-eksponen-dan-logaritma
-   :irisan-dua-lingkaran
-   :sistem-pertidaksamaan-dua-variabel--linear-kuadrat-dan-kuadrat-kuadrat-
-   :irisan-kerucut
-   :fungsi-trigonometri
-   :rumus-jumlah-dan-selisih-sinus-dan-cosinus
-   :polinomial
-   :skalar-dan-vektor-serta-operasi-aljabar-vektor
-   :integral-tentu
-   :persiapan-penilaian-akhir-semester--pas-
-   :limit-fungsi-trigonometri
-   :trigonometri-dan-kalkulus
-   :persamaan-trigonometri
-   :pertidaksamaan-mutlak--pecahan--dan-irasional
-   :statistik-inferensial
-   :persiapan-penilaian-tengah-semester--pts-]}
- {:subject :matematika-smp,
+ {:subject :matematika,
   :chapters
   [:fungsi-kuadrat
    :persamaan-dan-pertidaksamaan-linear-satu-variabel
@@ -242,6 +223,25 @@
    :persamaan-garis-lurus
    :transformasi-geometri
    :aritmetika-sosial]}
+ {:subject :matematika-peminatan,
+  :chapters
+  [:sistem-persamaan-dua-variabel--linear-kuadrat-dan-kuadrat-kuadrat-
+   :grafik--persamaan--dan-pertidaksamaan-eksponen-dan-logaritma
+   :irisan-dua-lingkaran
+   :sistem-pertidaksamaan-dua-variabel--linear-kuadrat-dan-kuadrat-kuadrat-
+   :irisan-kerucut
+   :fungsi-trigonometri
+   :rumus-jumlah-dan-selisih-sinus-dan-cosinus
+   :polinomial
+   :skalar-dan-vektor-serta-operasi-aljabar-vektor
+   :integral-tentu
+   :persiapan-penilaian-akhir-semester--pas-
+   :limit-fungsi-trigonometri
+   :trigonometri-dan-kalkulus
+   :persamaan-trigonometri
+   :pertidaksamaan-mutlak--pecahan--dan-irasional
+   :statistik-inferensial
+   :persiapan-penilaian-tengah-semester--pts-]}
  {:subject :matematika-wajib,
   :chapters
   [:trigonometri

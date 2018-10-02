@@ -1,8 +1,15 @@
 (ns zenlabel.core
   (:require [dk.ative.docjure.spreadsheet :as xls]
             [clojure.string :as s]
-            [clojure.pprint :refer [pprint]])
+            [clojure.pprint :as pprint])
   (:gen-class))
+
+(defn spit-pp
+  [out-name data]
+  (spit out-name (with-out-str (pprint/pprint (if (seq? data)
+                                                (try (sort data)
+                                                     (catch Exception e data))
+                                                data)))))
 
 (def ^{:private true} SUBJECTS
   #"([M|m]atematika [W|w]ajib|[m|M]atematika [p:P]eminatan|[m|M]atematika [S|s][M|m][p|P]|[M|m]atematika||[b|B]ahasa [I|i]ndonesia|Bahasa Inggris|IPA|Biologi|Fisika|Kimia|Sejarah Indonesia|Sejarah Peminatan|Ekonomi|Geografi|Sosiologi)")
@@ -93,7 +100,7 @@
               {:subject (:enum-name m)
                ;:label (:subject m)
                :chapters (mapv :enum-name (:chapters m))}))
-       pprint
+       pprint/pprint
        with-out-str
        (spit "subjects.edn")))
 
@@ -174,7 +181,7 @@
   (group-by :subject-keyword pair-content-slugged-cg))
 
 (def pair-content-slugged-cg-by-cg
-  (let [gc (group-by :cg-id pair-content-slugged-cg)]
+  (let [gc (group-by :id pair-content-slugged-cg)]
     (->> (for [[k values] (sort gc)]
            [k (mapv #(select-keys % [:subject-keyword :chapter :canonical-name]) values)])
          (into (sorted-map)))))
@@ -186,3 +193,126 @@
                         (remove #(= subject (:chapter %)))
                         sort vec)])
        (into {})))
+
+(defn transform-subject
+  [subject-list]
+  (loop [temp {}
+         [f & rest] subject-list]
+    (if (empty? rest)
+      temp
+      (recur (let [{:keys [subject chapters]} f]
+               (assoc temp subject chapters))
+             rest))))
+
+(def subjects (clojure.edn/read-string (slurp "subjects.edn")))
+
+(spit "new-chapters.edn" (with-out-str (->> (for [[subject data] (sort pair-content-slugged-cg-by-subject)]
+                                              [subject (vec (sort (distinct (map :chapter data))))])
+                                            (into (sorted-map))
+                                            clojure.pprint/pprint)))
+
+(defn make-pattren
+  ""
+  [vec-of-string]
+  (->> vec-of-string
+       (interpose "|")
+       (apply str)
+       re-pattern))
+
+
+(def content-map (clojure.edn/read-string (slurp "content-map.edn")))
+
+(def negative-keywords ["latihan-soal-ulangan"
+                        "latihan-soal-part"
+                        "latihan-soal"
+                        "latihan-ulangan"
+                        "latihan-set"
+                        "latihan"
+                        "ulangan-pg"
+                        "ulangan-essay"
+                        "ulangan-uraian"
+                        "ulangan"
+                        "konsep"
+                        "subbab"
+                        "set-soal"
+                        "set-essay"
+                        "set-pg"
+                        "soal-set"
+                        "soal-essay"
+                        "soal-pg"
+                        "soal-uraian"
+                        "soal"
+                        "pilihan-ganda"
+                        "uraian"
+                        "teori-dan-latihan-soal"
+                        "teori-dan-soal"
+                        "teori"
+                        "konsep"
+                        "materi"
+                        "concept"
+                        "exercise"
+                        "essay"
+                        "set-"
+                        "-set"
+                        "kelas-sd"
+                        "update"
+                        "-0-sampai"
+                        "-no-81-90"
+                        "pas-ganjil"
+                        "pts"
+                        "pas-genap"
+                        "part-i"
+                        "part-ii"
+                        "part-iii"
+                        "revisi"
+                        "pg-set"
+                        "pg"
+                        "dp"
+                        "5a"
+                        "5b"
+                        "ch" ])
+
+(def college-prep (make-pattren ["sbmptn" "simak-ui" "spmb" "um-utul-ugm" "utul-ugm" "umb" "usm" "stan" "unpad" "smup" "snmptn" "umptn"]))
+
+(def soal-un-sma (make-pattren ["sma" "smk"]))
+
+(def soal-un-smp (make-pattren ["smp" "mts"]))
+
+(def soal-un-sd (make-pattren ["sd" "madrasah-mi"]))
+
+(defn clean-chapter
+  [keyword-chapter subject]
+  (let [keyword-name (name keyword-chapter)
+        pattren (make-pattren negative-keywords)
+        filtered-chapter (clojure.string/replace keyword-name pattren "")
+        filtered-dash (->> (clojure.string/split filtered-chapter #"-")
+                           (filter not-empty)
+                           (interpose "-"))
+        str-chap (apply str filtered-dash)
+        str-chap' (if (empty? str-chap)
+                    (str (name subject) "-lain-lain")
+                    str-chap)]
+    (keyword str-chap')))
+
+(def filtered-chapters
+  (->> content-map
+       (map (fn [[k [m]]]
+              (let [old-chapter (:chapter m)
+                    subject (:subject-keyword m)]
+                {k (-> (assoc m :old-chapter old-chapter)
+                       (assoc :new-chapter (clean-chapter old-chapter subject))
+                       (dissoc :chapter))})))
+       (map (fn [m]
+              (let [k (first (keys m))
+                    v (first (vals m))
+                    new-chapter (name (:new-chapter v))
+                    chapter-un (cond
+                                 (re-find college-prep new-chapter) :collage-prep
+                                 (re-find soal-un-sma new-chapter) :soal-un-sma
+                                 (re-find soal-un-smp new-chapter) :soal-un-smp
+                                 (re-find soal-un-sd new-chapter) :soal-un-sd
+                                 :else (keyword new-chapter))]
+                {k (assoc v :new-chapter chapter-un)})))
+       (group-by (fn [m]
+                   (let [[v] (vals m)]
+                     (:new-chapter v))))))
