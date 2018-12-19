@@ -274,7 +274,7 @@
 
 (def college-prep (make-pattren ["sbmptn" "simak-ui" "spmb" "um-utul-ugm" "utul-ugm" "umb" "usm" "stan" "unpad" "smup" "snmptn" "umptn"]))
 
-(def soal-un-sma (make-pattren ["sma" "smk"]))
+(def soal-un-sma (make-pattren ["sma" "smk" "semester" "persiapan-uas" "persiapan-uts" "persiapan-pas"]))
 
 (def soal-un-smp (make-pattren ["smp" "mts"]))
 
